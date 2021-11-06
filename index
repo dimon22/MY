@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+</head>
+
+<body>
+    <table cellspacing="15">
+        <tr>
+            <td><img src="pig.jpg" width="300"></td>
+            <td>
+                <h1>Иванов Дмитрий</h1>
+                <p><em>Я учусь делать сайты</em></p>
+                <p>Но пока нихера <strong>не получается!</strong></p>
+            </td>
+        </tr>
+    </table>
+       <hr>
+    <h2>Мои социальные сети</h2>
+    <ul type="circle">
+        <li><a href="https://vk.com/" target="_blank">Мой ВК</a></li>
+        <li><a href="https://web.telegram.org/" target="_blank">Мой телеграм</a></li>
+    </ul>
+    <hr>
+    <h2>Мои хобби</h2>
+    <ol type="I">
+        <li><strong>Не знаю</strong></li>
+        <li><strong>Не помню</strong></li>
+    </ol>
+    <hr>
+    <h2>Опыт работы</h2>
+    <table border="2">
+        <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+        <tr>
+            <td>работал там</td>
+            <td>Непойми кем</td>
+            <td>С такого по такое</td>
+        </tr>
+        <tr>
+            <td>Работал здесь</td>
+            <td>Так же не понятно</td>
+            <td>С этого по этого</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Связаться со мной</h2>
+    <form>
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Введите ваше имя">
+
+        <br>
+
+        <label for="email">Ваш Email</label>
+        <input type="text" id="email" placeholder="Введите ваш Email">
+
+        <br>
+
+        <input type="submit" value="Связаться"
+    
+    </form>
+
+
+
+
+
+</body>
+</html>
